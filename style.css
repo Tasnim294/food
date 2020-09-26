@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+span button{
+    color: rgb(245, 143, 27);
+    background: none;
+    padding: 5px;
+}
+span button:hover{
+    color: rgb(245, 226, 223);
+    background: tomato;
+}
+nav ul li a{
+    color: blanchedalmond;
+    background: none;
+}
+nav ul li a:hover{
+    color: blanchedalmond;
+    background: brown;
+}
+.first{
+    background-image: url(./cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button .btN{
+color: wheat;
+background: none;
+width: 25rem;
+}
+.button .btn:hover{
+    color: wheat;
+    background: rgb(94, 216, 13);
+}
+.ico i {
+    border: 1px dashed rgb(240, 29, 29);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 13px;
+    margin-left: 4px;
+    color: rgb(241, 88, 16);
+
+}
+.ico i:hover{
+    background: rgb(243, 99, 16);
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
